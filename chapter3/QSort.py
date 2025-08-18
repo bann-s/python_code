@@ -2,7 +2,7 @@
 
 from typing import List
 
-class Solution:
+class my_solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         def quick_sort(arr, low, high):
             if low < high:
@@ -24,8 +24,9 @@ class Solution:
         return nums
     
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
     nums = [3, 6, 8, 10, 1, 2, 1]
-    solution = Solution()
+    solution = my_solution()
+    print("Original array:", nums)  
     sorted_nums = solution.sortArray(nums)
     print("Sorted array:", sorted_nums)

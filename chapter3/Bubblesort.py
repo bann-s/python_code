@@ -7,7 +7,7 @@ def Bubblesort(arr):
     return arr  # Return the sorted array
 
 if __name__ == "__main__":
-    sample array = [64, 34, 25, 12, 22, 11, 90]
+    sample_array = [64, 34, 25, 12, 22, 11, 90]
     sorted_array = Bubblesort(sample_array)
     print("Sorted array:", sorted_array) 
     
